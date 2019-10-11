@@ -1,26 +1,20 @@
 {
-  "name": "koa_api",
+  "name": "koa_demo",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Heathennn/koa_api.git"
+    "start": "nodemon app.js",
+    "update": "git add . && git commit -m\"更新\" && git push"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Heathennn/koa_api/issues"
-  },
-  "homepage": "https://github.com/Heathennn/koa_api#readme",
   "dependencies": {
-    "koa": "^2.8.2",
-    "koa-bodyparser": "^4.2.1",
-    "koa-router": "^7.4.0",
-    "require-directory": "^2.1.1"
+    "axios": "0.19.0",
+    "koa": "2.8.2",
+    "koa-bodyparser": "4.2.1",
+    "koa-router": "7.4.0",
+    "require-directory": "2.1.1"
   }
 }
